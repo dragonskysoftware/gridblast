@@ -31,8 +31,10 @@ extern const int STOPPED; //game is off
 
 //database key constants
 extern const char* OP_KEY; //the key for the operation state DB entry
-extern const char* SHIELD_KEY; //the key for the number of shields active
+extern const char* USE_SHIELD_KEY; //the key for whether a shield should be used
 extern const char* USE_GLASS_KEY; //the key for whether a magnifying glass should be used
 extern const char* USE_BONUS_KEY; //the key for whether a point bonus should be used
+extern const char* SHIELD_LVL; //the power level of the shield being stored
+extern const char* GLASS_LVL; //the power level of the magnifying glass being used
 
 #endif
