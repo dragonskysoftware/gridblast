@@ -30,5 +30,8 @@ const int STOPPED = -1; //the game is stopped
 
 //database key constants
 const char* OP_KEY = "Operation"; //the database key for the operation state
+const char* SHIELD_KEY = "Shields"; //the key for the number of shields active
+const char* USE_GLASS_KEY = "useGlass"; //the key for whether a magnifying glass should be used
+const char* USE_BONUS_KEY = "useBonus"; //the key for whether a point bonus should be used
 
 //end of definitions

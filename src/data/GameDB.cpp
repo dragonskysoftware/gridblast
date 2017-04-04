@@ -32,7 +32,9 @@ GameDB& GameDB::getInstance() {
 //EDIT THIS TO ADD NEW DATABASE FIELDS
 void GameDB::initDB() {
 	this->intDB[std::string(OP_KEY)] = STARTING; //create the operation state entry
-	//TODO: Create more entries
+	this->intDB[std::string(SHIELD_KEY)] = 0; //create the shield count entry
+	this->boolDB[std::string(USE_GLASS_KEY)] = false; //create the glass entry
+	this->boolDB[std::string(USE_BONUS_KEY)] = false; //create the bonus entry
 }
 
 //getter methods for the database
