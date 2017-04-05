@@ -25,9 +25,10 @@ EXCE=$(shell ls src/except/*.cpp)
 DATA=$(shell ls src/data/*.cpp)
 EVNT=$(shell ls src/event/*.cpp)
 CORE=$(shell ls src/core/*.cpp)
+PWRP=$(shell ls src/powerup/*.cpp)
 
 # compile the source code into a list
-SOURCES=$(MAIN) $(TEX) $(COMP) $(UTIL) $(EXCE) $(DICE) $(DATA) $(EVNT) $(CORE)
+SOURCES=$(MAIN) $(TEX) $(COMP) $(UTIL) $(EXCE) $(DICE) $(DATA) $(EVNT) $(CORE) $(PWRP)
 
 # map the source files to object files
 OBJECTS=$(SOURCES:.cpp=.o)
