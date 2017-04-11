@@ -3,7 +3,7 @@
  * Declares a static class that runs Gridblast
  * Created by Andrew Davis
  * Created on 3/31/2017
- * Open source (GPL license)
+ * All rights reserved
  */
 
 //disallow reinclusion

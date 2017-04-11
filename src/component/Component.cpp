@@ -3,7 +3,7 @@
  * Implements a class that represents a game component for Gridblast
  * Created by Andrew Davis
  * Created on 3/31/2017
- * Open source (GPL license)
+ * All rights reserved
  */
 
 //include header

@@ -3,7 +3,7 @@
  * Enumerates different types of game component textures for Gridblast
  * Created by Andrew Davis
  * Created on 3/31/2017
- * Open source (GPL license)
+ * All rights reserved
  */
 
 //disallow reinclusion

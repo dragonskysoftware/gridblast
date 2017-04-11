@@ -3,7 +3,7 @@
  * Implements a class that represents a generalized powerup for Gridblast
  * Created by Andrew Davis
  * Created on 4/5/2017
- * Open source (GPL license)
+ * All rights reserved
  */
 
 //include header

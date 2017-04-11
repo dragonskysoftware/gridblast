@@ -3,7 +3,7 @@
  * Declares an exception that is thrown when an invalid powerup is found
  * Created by Andrew Davis
  * Created on 4/5/2017
- * Open source (GPL license)
+ * All rights reserved
  */
 
 //disallow reinclusion
