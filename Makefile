@@ -11,7 +11,7 @@ CXX=clang++
 CPPFLAGS=-c -Wall -std=c++14 -Wno-unused-value
 
 # define the library flags
-LIBS=-lSDL2 -lSDL2_image -lSDL2_ttf -lm
+LIBS=-lSDL2 -lSDL2_image -lSDL2_ttf -lSDL_mixer -lm
 
 # define the state-specific library flags
 debug: CPPFLAGS += -g
@@ -26,9 +26,10 @@ DATA=$(shell ls src/data/*.cpp)
 EVNT=$(shell ls src/event/*.cpp)
 CORE=$(shell ls src/core/*.cpp)
 PWRP=$(shell ls src/powerup/*.cpp)
+SND=$(shell ls src/audio/*.cpp)
 
 # compile the source code into a list
-SOURCES=$(MAIN) $(TEX) $(COMP) $(UTIL) $(EXCE) $(DICE) $(DATA) $(EVNT) $(CORE) $(PWRP)
+SOURCES=$(MAIN) $(TEX) $(COMP) $(UTIL) $(EXCE) $(DICE) $(DATA) $(EVNT) $(CORE) $(PWRP) $(SND)
 
 # map the source files to object files
 OBJECTS=$(SOURCES:.cpp=.o)
